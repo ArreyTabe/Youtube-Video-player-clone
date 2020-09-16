@@ -9,20 +9,20 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#"><i class="fa fa-bars"></i></a></li>
-                <li><a id="logo" href="https://www.youtube.com/"><img src="youtube.png" alt="Youtube"></a></li>
-                <li><input type="text" placeholder="search"></li>
-                <li><a href="#"><i class="fa fa-search"></i></a></li>
-                <li><a id="u-icon"href="#"><i class="fa fa-upload"></i></a></li>
-                <li><button>sign in</button></li>
-            </ul>
-        </nav>
-        </header>
+    <header class="container">
+        <ul>            
+            <li><a href="#"><i class="fa fa-bars"></i></a></li>
+            <li id="logo"><a href="https://www.youtube.com/"><img src="youtube.png" alt="Youtube"></a></li>
+            <li><input type="text" placeholder="search"></li>
+            <li><a href="#"><i class="fa fa-search"></i></a></li>
+            <li id="u-icon"><a href="#"><i class="fa fa-upload"></i></a></li>
+            <li><button>sign in</button></li>
+        </ul>
+    </header>
 
     <main class="container">
+
+    <section class="container">
         <div id="video-player">
 
             <iframe 
@@ -33,17 +33,14 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>            
         </iframe>
-
         </div>
 
         <p>What is Microverse?</p>
 
-        <div id="video-data">
-            <div>
+        <div id="video-data">    
+            <div id="video-info">
                 <span>259,000 views . Aug 2, 2018</span>
-            </div>
-            <div>
-                <i class="fa fa-thumbs-up">6.8k</i>
+                <i id = "thumbs-up" class="fa fa-thumbs-up">6.8k</i>
                 <i class="fa fa-thumbs-down">205</i>
                 <i class="fa fa-share">SHARE</i>
                 <i class="fa fa-save">SAVE</i>
@@ -52,13 +49,13 @@
         </div>
 
         <div id=channel-data>
-            <img src="microverse.png" alt="Microverse">
+            <img id="c-icon" src="microverse.png" alt="Microverse">
             <span>
                 <h5>Microverse</h5>
                 <h6>1M subscribers</h6>
             </span>
 
-            <button>SUBSCRIBE</button>
+            <button style="align-self: flex-end;">SUBSCRIBE</button>
         </div>
 
         <div id="comments">
@@ -90,38 +87,44 @@
 
         <span>
             <i class="fa fa-spinner fa-spin"></i>
-        </span>
+        </span>        
+    </section>
 
-        <div></div>
-  
-        <aside class="container">
-            <img src="playlist_one.png" alt="playlist_one">
-            <img src="playlist_two.png" alt="playlist_two">
-        </aside>
+    <aside class="container">
+        <img src="playlist_one.png" alt="playlist_one">
+        <img src="playlist_two.png" alt="playlist_two">
+    </aside>
+
     </main>
 
-    <footer id="footer">
-        <div id="footer1">
-        <a href="https://www.youtube.com/"><img src="youtube.png" alt="Youtube"></a>
-        <form action="">
-            <div id="footer-options">
-            <button><label for="language" id="lang">Language:</label>
-           <select name="language" id="language">
-            <option value="" selected>English</option>
-           </select></button>
-           <button><label for="location" id="loc">Location:</label>
-           <select name="location" id="location">
-            <option value="" selected>Netherlands</option>
-           </select></button>
-           <button><label for="rest_mode" id="rest_mode">Restricted mode:</label>
-           <select name="rest_mode" id="rest_mode">
-            <option value="" selected>On</option>
-           </select></button>
+    <footer>
+        <div id="f-options">
+            <a href="https://www.youtube.com/"><img src="youtube.png" alt="Youtube"></a>
+            <form action="">
+                <button>
+                    <label for="language" id="lang">Language:</label>
+                    <select name="language" id="language">
+                        <option value="" selected>English</option>
+                    </select>
+                </button>
+                <button>
+                    <label for="location" id="loc">Location:</label>
+                    <select name="location" id="location">
+                        <option value="" selected>Netherlands</option>
+                    </select>
+                </button>
+                <button>
+                    <label for="rest_mode" id="rest_mode">Restricted mode:</label>
+                    <select name="rest_mode" id="rest_mode">
+                        <option value="" selected>On</option>
+                    </select>
+                </button>
+
+                <button><i class="fa fa-hourglass-end"></i>History</button>
+                <button><i class="fa fa-question-circle"></i>Help</button>
+            </form>
         </div>
-           <button><i class="fa fa-hourglass-end"></i>History</button>
-           <button><i class="fa fa-question-circle"></i>Help</button>
-        </form>
-        </div>
+       
         <div>
             <span class="f-link-a">
                 <ul>
@@ -139,14 +142,10 @@
                     <a href="#"><li>Privacy</li></a>
                     <a href="#"><li>Policy & Safety</li></a>
                     <a href="#"><li>Test new features</li></a>
-                  </ul>
-
-                
-                </span>
+                </ul>                
+            </span>
         </div>
         
-            </span>
-        </div>        
     </footer>
 </body>
 </html>
