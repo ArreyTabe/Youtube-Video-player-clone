@@ -22,22 +22,22 @@
 
     <main class="container">
 
-    <section class="container">
+    <section id="section">
         <div id="video-player">
 
-            <iframe 
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed/f9ip1iSAptQ" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>            
-        </iframe>
+            <iframe
+                width="100%" 
+                height="400" 
+                src="https://www.youtube.com/embed/f9ip1iSAptQ" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>            
+            </iframe>
         </div>
 
         <p>What is Microverse?</p>
 
-        <div id="video-data">    
+        <div>    
             <div id="video-info">
                 <span>259,000 views . Aug 2, 2018</span>
                 <i id = "thumbs-up" class="fa fa-thumbs-up">6.8k</i>
@@ -58,15 +58,17 @@
             <button style="align-self: flex-end;">SUBSCRIBE</button>
         </div>
 
-        <div id="comments">
+        <div id="add-comment">
             <form action="">
                 <textarea name="user-comment" id="user-comment" cols="60" rows="10"></textarea>
             </form>
         </div>
 
-        <span>
-            <h6>Peter Smith</h6>
-            <p>I cant help but to say that the concept Microverse is 
+        <span id="comment">
+            <p>
+                <strong>Peter Smith</strong> <br>
+                
+                I cant help but to say that the concept Microverse is 
                 very interesting to me as a beginner in coding i can 
                 say Microverse is evreything ive been looking for in 
                 a long time... but i had this question in mind ,after 
@@ -82,11 +84,11 @@
 
                 <hr>
 
-                <p>SHOW MORE</p>
+                <p style="text-align: center;">SHOW MORE</p>
         </span>
 
-        <span>
-            <i class="fa fa-spinner fa-spin"></i>
+        <span id="spinner">
+            <i class="fa fa-spinner fa-spin"></i>Loading...
         </span>        
     </section>
 
@@ -97,7 +99,7 @@
 
     </main>
 
-    <footer>
+    <footer id="footer">
         <div id="f-options">
             <a href="https://www.youtube.com/"><img src="youtube.png" alt="Youtube" class="logo"></a>
             <form action="">
@@ -123,10 +125,11 @@
                 <button><i class="fa fa-hourglass-end"></i>History</button>
                 <button><i class="fa fa-question-circle"></i>Help</button>
             </form>
-        </div>
-        <hr>
+            <hr>
+        </div>       
+
        
-        <div id="f-link-container">
+        <div>
             <ul class="f-link">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Press</a><li>

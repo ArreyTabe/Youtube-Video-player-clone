@@ -1,7 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: lightgrey;
+    background-color: lightgray;
+      
 }
 
 .container{
@@ -28,13 +29,14 @@ main{
 
 section{
     flex-direction: column;
-    width: 100%;
+    flex: 2;
 }
 
 #video-info{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
 }
 
 #thumbs-up{
@@ -66,62 +68,74 @@ section{
 
 aside{
     flex-direction: column;
+    
 }
 
 li {
    list-style: none; 
 }
 
-footer{
+#comment {
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#spinner{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding:40px;
+    margin-right: 10px;
+}
+
+#footer {
     display: flex;
     flex-direction: column;
     width: 100%;
     background-color: white;
 }
-   #f-options {
-       height: 80px;
-       display: flex;
-       margin-top: 10px;
-      }
-      #f-options * {
-          padding-right: 10px;
-         
-      }
-      #f-link-container {
-         height: 0px;
-      }
 
+#f-options {   
+    display: flex;
+    margin-top: 10px;
+}
 
-.f-link {
-   
+#f-options * {
+    padding-right: 10px;     
+}
+
+.f-link {   
     display: flex;
     flex-direction: row;
-    padding-left: 2px;
-   
-    }
+    padding-left: 2px;   
+}
 
-   .f-link li {
+.f-link li {
+padding-right: 10px;
+}
+
+.f-link li a {
+color: black;
+text-decoration: none;
+}
+
+.f-link-b {
+display: flex;
+flex-direction: row;
+padding-left: 2px;
+}
+
+.f-link-b li {
     padding-right: 10px;
-          }
-
-   .f-link li a {
-    color: black;
-    text-decoration: none;
-   }
-
-   .f-link-b {
-    display: flex;
-    flex-direction: row;
-    padding-left: 2px;
-    }
-
-    .f-link-b li {
-        padding-right: 10px;
-     }
+}
      
-     .f-link-b li a {
-        color: darkgray;
-        text-decoration: none;
-       }
+.f-link-b li a {
+    color: darkgray;
+    text-decoration: none;
+}
 
  
