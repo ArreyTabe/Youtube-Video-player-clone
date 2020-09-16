@@ -8,24 +8,28 @@ body{
 }
 
 header{
-    display: flex;
     background-color: aqua;
-}
+    }
+    header ul {
+        display: block;
+        float: left;
+      
+       
+    }
+    header ul li {
+       
+    }
 
-nav{
-    width: 100%;
-}
 
-nav ul{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    width: 100%;
+  
 
-}
+
 
 #logo{
-    margin-right: auto;
+  margin-right: auto;
+  width: 5px;
+  height: 2px;
+   
 }
 
 #u-icon{
@@ -34,4 +38,7 @@ nav ul{
 
 aside{
     flex-direction: column;
+}
+li {
+   list-style: none; 
 }
