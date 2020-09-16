@@ -9,27 +9,54 @@ body{
 
 header{
     background-color: aqua;
-    }
-    header ul {
-        display: block;
-        float: left;
-      
-       
-    }
-    header ul li {
-       
-    }
+    width: 100%;
+}
 
+header ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
 
-  
+main{
+    flex-direction: row;
+    width: 100%;
+}
 
+section{
+    flex-direction: column;
+    width: 100%;
+}
 
+#video-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#thumbs-up{
+    margin-left: auto;
+}
+
+#channel-data{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 100%;
+}
+
+#c-icon{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
 
 #logo{
   margin-right: auto;
-  width: 5px;
-  height: 2px;
-   
+  height: 15px;
+  width: 25px;
 }
 
 #u-icon{
@@ -39,6 +66,13 @@ header{
 aside{
     flex-direction: column;
 }
+
 li {
    list-style: none; 
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
