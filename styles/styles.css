@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+}
+
+header{
+    display: flex;
+    background-color: aqua;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+
+}
+
+#logo{
+    margin-right: auto;
+}
+
+#u-icon{
+    margin-left: auto;
+}
+
+aside{
+    flex-direction: column;
+}
