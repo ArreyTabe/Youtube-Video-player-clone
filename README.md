@@ -1,5 +1,3 @@
-# Youtube-Video-player-clone
-
 # YouTube Video player page
 
 ### Project Description
@@ -33,6 +31,5 @@ Video
 * It shows the recommended video’s thumbnail preview (as image not as an actual video).
 * It shows the title of the video.
 * It shows the number of views.
-
 
 
