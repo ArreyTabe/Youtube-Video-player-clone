@@ -1,71 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/styles.css">
-    <title>What is Microverse</title>
-</head>
-
-<body>
-    <header class="container">
-        <ul>            
-            <li><a href="#"><i class="fa fa-bars"></i></a></li>
-            <li ><a href="https://www.youtube.com/" ><img src="youtube.png" alt="Youtube" class="logo"></a></li>
-            <li><input type="text" placeholder="search"></li>
-            <li><a href="#"><i class="fa fa-search"></i></a></li>
-            <li id="u-icon"><a href="#"><i class="fa fa-upload"></i></a></li>
-            <li><button>sign in</button></li>
-        </ul>
-    </header>
-
-    <main class="container" id="container">
-
-    <section id="section">
-        <div id="video-player">
-
-            <iframe
-                width="100%" 
-                height="400" 
-                src="https://www.youtube.com/embed/f9ip1iSAptQ" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>            
-            </iframe>
-        </div>
-    <div id="h4-video-info">
-        <h4>What is Microverse?</h4>
-        <div id="video-info">
-            <span>259,000 views . Aug 2, 2018</span>
-            <i id = "thumbs-up" class="fa fa-thumbs-up">6.8k</i>
-            <i class="fa fa-thumbs-down">205</i>
-            <i class="fa fa-share">SHARE</i>
-            <i class="fa fa-save">SAVE</i>
-            <i class="fa fa-ellipsis-h"></i>
-        </div>            
-    </div>
-
-        <div id=channel-data>
-            <img id="c-icon" src="microverse.png" alt="Microverse">
-            <span>
-                <h5>Microverse</h5>
-                <h6>1M subscribers</h6>
-            </span>
-            <button>SUBSCRIBE</button>
-        </div>
-
-        <div id="add-comment">
-            <form action="">
-                <textarea name="user-comment" id="user-comment" cols="6" rows="1"></textarea>
-            </form>
-        </div>
-
-        <span id="comment">
-            <p>
-                <strong>Peter Smith</strong> <br>
-                
-                I cant help but to say that the concept Microverse is 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <title>What is Microverse</title>
+    </head>
+    <body>
+        <header class="container">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/">
+                        <img src="youtube.png" alt="Youtube" class="logo">
+                    </a>
+                </li>
+                <li>
+                    <input type="text" placeholder="search">
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </li>
+                <li id="u-icon">
+                    <a href="#">
+                        <i class="fa fa-upload"></i>
+                    </a>
+                </li>
+                <li>
+                    <button>sign in</button>
+                </li>
+            </ul>
+        </header>
+        <main class="container" id="container">
+            <section id="section">
+                <div id="video-player">
+                    <iframe
+                        width="100%"
+                        height="400"
+                        src="https://www.youtube.com/embed/f9ip1iSAptQ"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+                <div id="h4-video-info">
+                    <h4>What is Microverse?</h4>
+                    <div id="video-info">
+                        <span>259,000 views . Aug 2, 2018</span>
+                        <i id="thumbs-up" class="fa fa-thumbs-up">6.8k</i>
+                        <i class="fa fa-thumbs-down">205</i>
+                        <i class="fa fa-share">SHARE</i>
+                        <i class="fa fa-save">SAVE</i>
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div id="channel-data">
+                    <img id="c-icon" src="microverse.png" alt="Microverse">
+                    <span>
+                        <h5>Microverse</h5>
+                        <h6>1M subscribers</h6>
+                    </span>
+                    <button>SUBSCRIBE</button>
+                </div>
+                <div id="add-comment">
+                    <form action="">
+                        <textarea
+                            name="user-comment"
+                            id="user-comment"
+                            cols="6"
+                            rows="1"
+                        ></textarea>
+                    </form>
+                </div>
+                <span id="comment">
+                    <p>
+                        <strong>Peter Smith</strong>
+                        <br>
+                        I cant help but to say that the concept Microverse is 
                 very interesting to me as a beginner in coding i can 
                 say Microverse is evreything ive been looking for in 
                 a long time... but i had this question in mind ,after 
@@ -77,73 +95,91 @@
                 can be very low in the emerging countries comparing them to 
                 lets say the US or europe.. im looking forward for your reply 
                 with anything that can clarify the post-graduation process , 
-                thank u snd have a wonderful day.</p>
-
+                thank u snd have a wonderful day.
+                    </p>
+                    <hr>
+                    <p style="text-align: center;">SHOW MORE</p>
+                </span>
+                <span id="spinner">
+                    <i class="fa fa-spinner fa-spin"></i>
+                    Loading...
+                </span>
+            </section>
+            <aside class="container">
+                <img src="playlist_one.png" alt="playlist_one">
+                <img src="playlist_two.png" alt="playlist_two">
+            </aside>
+        </main>
+        <footer id="footer">
+            <div id="f-options">
+                <a href="https://www.youtube.com/">
+                    <img src="youtube.png" alt="Youtube" class="logo">
+                </a>
+                <form action="">
+                    <button>
+                        <label for="language" id="lang">Language:</label>
+                        <select name="language" id="language">
+                            <option value="" selected>English</option>
+                        </select>
+                    </button>
+                    <button>
+                        <label for="location" id="loc">Location:</label>
+                        <select name="location" id="location">
+                            <option value="" selected>Netherlands</option>
+                        </select>
+                    </button>
+                    <button>
+                        <label for="rest_mode" id="rest_mode">Restricted mode:</label>
+                        <select name="rest_mode" id="rest_mode">
+                            <option value="" selected>On</option>
+                        </select>
+                    </button>
+                    <button>
+                        <i class="fa fa-hourglass-end"></i>History
+                    </button>
+                    <button>
+                        <i class="fa fa-question-circle"></i>Help
+                    </button>
+                </form>
                 <hr>
-
-                <p style="text-align: center;">SHOW MORE</p>
-        </span>
-
-        <span id="spinner">
-            <i class="fa fa-spinner fa-spin"></i>Loading...
-        </span>        
-    </section>
-
-    <aside class="container">
-        <img src="playlist_one.png" alt="playlist_one">
-        <img src="playlist_two.png" alt="playlist_two">
-    </aside>
-
-    </main>
-
-    <footer id="footer">
-        <div id="f-options">
-            <a href="https://www.youtube.com/"><img src="youtube.png" alt="Youtube" class="logo"></a>
-            <form action="">
-                <button>
-                    <label for="language" id="lang">Language:</label>
-                    <select name="language" id="language">
-                        <option value="" selected>English</option>
-                    </select>
-                </button>
-                <button>
-                    <label for="location" id="loc">Location:</label>
-                    <select name="location" id="location">
-                        <option value="" selected>Netherlands</option>
-                    </select>
-                </button>
-                <button>
-                    <label for="rest_mode" id="rest_mode">Restricted mode:</label>
-                    <select name="rest_mode" id="rest_mode">
-                        <option value="" selected>On</option>
-                    </select>
-                </button>
-
-                <button><i class="fa fa-hourglass-end"></i>History</button>
-                <button><i class="fa fa-question-circle"></i>Help</button>
-            </form>
-            <hr>
-        </div>       
-
-       
-        <div>
-            <ul class="f-link">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Press</a><li>
-                <li><a href="#">Copyright</a></li>
-                <li><a href="#">Creators</a></li>
-                <li><a href="#">Advertise</a></li>
-                <li><a href="#">Developers</a></li>
-            </ul>
-            
-            <ul class="f-link-b">
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy</a></li>
-               <li></a> <a href="#">Policy & Safety</a></li>
-               <li><a href="#">Test new features</a></li>
-            </ul>                
-        </div>
-        
-    </footer>
-</body>
-</html>
+            </div>
+            <div>
+                <ul class="f-link">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Press</a>
+                        <li>
+                            <li>
+                                <a href="#">Copyright</a>
+                            </li>
+                            <li>
+                                <a href="#">Creators</a>
+                            </li>
+                            <li>
+                                <a href="#">Advertise</a>
+                            </li>
+                            <li>
+                                <a href="#">Developers</a>
+                            </li>
+                        </ul>
+                        <ul class="f-link-b">
+                            <li>
+                                <a href="#">Terms</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy</a>
+                            </li>
+                            <li>
+                            </a>
+                            <a href="#">Policy & Safety</a>
+                        </li>
+                        <li>
+                            <a href="#">Test new features</a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </body>
+    </html>

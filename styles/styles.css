@@ -1,13 +1,12 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     background-color: white;
     margin-left: 0px;
-      
 }
 
-header{
-    background-color:white;
+header {
+    background-color: white;
     position: fixed;
     width: 100%;
     top: 0px;
@@ -17,79 +16,83 @@ header ul {
     display: flex;
     flex-direction: row;
     width: 100%;
-    }
+}
 
-    header ul li {
-      padding: 10px;
-      margin-left: 0px;
-      height: 1.5rem;
-    }
-    header ul li a {
-        color: darkgrey;
-    }
+header ul li {
+    padding: 10px;
+    margin-left: 0px;
+    height: 1.5rem;
+}
 
-    header ul li input {
-        height: 1.5rem;
-        margin-left: 5rem;
-        width: 40rem;
-        border: 1px solid lightslategray;
-        padding-left: 0.5rem;
-    }
-   
-    header ul li .fa-search {
-        border: 1px solid darkgrey;
-        height: 1.5rem;
-        padding-left: 2.3rem;
-        width: 3rem;
-        padding-top: 0.3rem;
-   }
+header ul li a {
+    color: darkgrey;
+}
 
-   header ul li .fa-search:hover {
-       background-color: lightgrey;
-   }
+header ul li input {
+    height: 1.5rem;
+    margin-left: 5rem;
+    width: 40rem;
+    border: 1px solid lightslategray;
+    padding-left: 0.5rem;
+}
 
-   header ul li button {
-       background-color: #33A2FF;
-       height: 1.5rem;
-       color: white;
-       margin-right: 3rem;     
-   }
-   .container{
+header ul li .fa-search {
+    border: 1px solid darkgrey;
+    height: 1.5rem;
+    padding-left: 2.3rem;
+    width: 3rem;
+    padding-top: 0.3rem;
+}
+
+header ul li .fa-search:hover {
+    background-color: lightgrey;
+}
+
+header ul li button {
+    background-color: #33A2FF;
+    height: 1.5rem;
+    color: white;
+    margin-right: 3rem;
+}
+
+.container {
     display: flex;
 }
+
 #container {
     margin-left: 10rem;
-   
 }
 
-main{
+main {
     flex-direction: row;
     width: ;
 }
 
-section{
+section {
     flex-direction: column;
     flex: 2;
     background-color: white;
 }
+
 #h4-video-info {
     background-color: white;
 }
+
 h4 {
     font-size: 1.25rem;
     font-weight: 500;
     background-color: white;
 }
 
-#video-info{
+#video-info {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color:white;
-   
+    background-color: white;
 }
+
 #video-info span {
- padding-top: 1rem;
+    padding-top: 1rem;
 }
 
 #video-info i {
@@ -97,7 +100,7 @@ h4 {
     color: #4d4d4d;
 }
 
-#thumbs-up{
+#thumbs-up {
     margin-left: auto;
 }
 
@@ -105,41 +108,39 @@ h4 {
     display: flex;
     background-color: tomato;
     margin-left: 0px;
-   
- }
- #channel-data span {
-     align-self: stretch;
- }
-
-#channel-data button {
- align-self: flex-end;
-  background-color: lightslategray;
 }
 
+#channel-data span {
+    align-self: stretch;
+}
 
-#c-icon{
+#channel-data button {
+    align-self: flex-end;
+    background-color: lightslategray;
+}
+
+#c-icon {
     border-radius: 50%;
     height: 30px;
     width: 30px;
 }
 
-.logo{
-  margin-right: auto;
-  height: 30px;
-  width: 90px;
+.logo {
+    margin-right: auto;
+    height: 30px;
+    width: 90px;
 }
 
-#u-icon{
+#u-icon {
     margin-left: auto;
 }
 
-aside{
+aside {
     flex-direction: column;
-    
 }
 
 li {
-   list-style: none; 
+    list-style: none;
 }
 
 #comment {
@@ -149,13 +150,13 @@ li {
     margin-bottom: 10px;
 }
 
-#spinner{
+#spinner {
     display: flex;
     flex-direction: row;
     background-color: white;
     align-items: center;
     justify-content: center;
-    padding:40px;
+    padding: 40px;
     margin-right: 10px;
 }
 
@@ -167,43 +168,41 @@ li {
     margin-left: 12rem;
 }
 
-#f-options {   
+#f-options {
     display: flex;
     margin-top: 10px;
 }
 
 #f-options * {
-    padding-right: 10px;     
+    padding-right: 10px;
 }
 
-.f-link {   
+.f-link {
     display: flex;
     flex-direction: row;
-    padding-left: 2px;   
+    padding-left: 2px;
 }
 
 .f-link li {
-padding-right: 10px;
+    padding-right: 10px;
 }
 
 .f-link li a {
-color: black;
-text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 .f-link-b {
-display: flex;
-flex-direction: row;
-padding-left: 2px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2px;
 }
 
 .f-link-b li {
     padding-right: 10px;
 }
-     
+
 .f-link-b li a {
     color: darkgray;
     text-decoration: none;
 }
-
- 
