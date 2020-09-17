@@ -5,6 +5,7 @@ body {
     align-content: center;
     background-color: white;
     margin-left: 0px;
+    
 }
 
 header {
@@ -21,26 +22,30 @@ header ul {
 }
 
 header ul li {
-    padding: 10px;
-    margin-left: 0px;
+  font-size: 20px;
     
 }
 
 header ul li a {
     color: darkgrey;
 }
+header ul li a .fa-bars {
+ margin-right: 20px;
+}
 
 header ul li input {
-    height: 1.5rem;
+    height: 30px;
     margin-left: 5rem;
     width: 40rem;
     border: 1px solid lightslategray;
+   
     padding-left: 0.5rem;
 }
 
 header ul li .fa-search {
     border: 1px solid darkgrey;
-    height: 1.5rem;
+    
+    height: 30px;
     padding-left: 2.3rem;
     width: 3rem;
     padding-top: 0.3rem;
@@ -52,16 +57,18 @@ header ul li .fa-search:hover {
 
 header ul li button {
     background-color: #33A2FF;
-    height: 1.5rem;
     color: white;
-    margin-right: 3rem;
+    margin-right: 80px;
+    border-style: none;
+    padding: 10px;
+    margin-left: 20px;
 }
 
 .container {
     display: flex;
 }
 
-#container {
+main {
     margin-left: 10rem;
 }
 
