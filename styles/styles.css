@@ -2,9 +2,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     background-color: white;
-    margin-left: 0px;
     
 }
 
@@ -13,33 +12,32 @@ header {
     position: fixed;
     width: 100%;
     top: 0px;
+    margin-bottom: 20px;
 }
 
 header ul {
     flex-direction: row;
     align-items: center;
-    width: 100%;
 }
 
 header ul li {
-  font-size: 20px;
-    
+  font-size: 20px;    
 }
 
 header ul li a {
     color: darkgrey;
 }
+
 header ul li a .fa-bars {
  margin-right: 20px;
 }
 
 header ul li input {
     height: 30px;
-    margin-left: 5rem;
     width: 40rem;
     border: 1px solid lightslategray;
-   
-    padding-left: 0.5rem;
+    padding-left: 1em;
+    margin-left: 15em;
 }
 
 header ul li .fa-search {
@@ -69,7 +67,9 @@ header ul li button {
 }
 
 main {
+    flex-direction: row;
     margin-left: 10rem;
+    padding-top: 100px;
 }
 
 figure {
@@ -77,30 +77,17 @@ figure {
     margin-right: 0.1rem;
 }
 
-main {
-    flex-direction: row;
-}
-
 section {
+    display: flex;
     flex-direction: column;
-    flex: 2;
     background-color: white;
-}
-
-#h4-video-info {
-    background-color: white;
-}
-
-h4 {
-    font-size: 1.25rem;
-    font-weight: 500;
-    background-color: white;
+    align-content: center;
+    justify-items: center;
 }
 
 #video-info {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     background-color: white;
 
 }
@@ -158,6 +145,7 @@ h4 {
 }
 
 aside {
+        
     flex-direction: column;
 }
 
@@ -182,10 +170,9 @@ li {
 
 #footer {
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: column;    
     background-color: white;
-    margin-left: 12rem;
+    
 }
 
 #f-options {
