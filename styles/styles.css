@@ -203,4 +203,5 @@ aside {
 .f-link-b li a {
   color: darkgray;
   text-decoration: none;
-}
+} 
+/* stylelint-disable-next-line rule */
