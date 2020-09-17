@@ -1,6 +1,8 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+    align-content: center;
     background-color: white;
     margin-left: 0px;
 }
@@ -13,15 +15,15 @@ header {
 }
 
 header ul {
-    display: flex;
     flex-direction: row;
+    align-items: center;
     width: 100%;
 }
 
 header ul li {
     padding: 10px;
     margin-left: 0px;
-    height: 1.5rem;
+    
 }
 
 header ul li a {
@@ -65,7 +67,6 @@ header ul li button {
 
 main {
     flex-direction: row;
-    width: ;
 }
 
 section {
@@ -89,15 +90,13 @@ h4 {
     flex-direction: row;
     justify-content: space-evenly;
     background-color: white;
-}
 
-#video-info span {
-    padding-top: 1rem;
 }
 
 #video-info i {
-    padding: 1rem;
+    padding-left: 20px;
     color: #4d4d4d;
+
 }
 
 #thumbs-up {
@@ -106,23 +105,33 @@ h4 {
 
 #channel-data {
     display: flex;
-    background-color: tomato;
+    flex-direction: row;
+    align-items: center;
     margin-left: 0px;
 }
 
-#channel-data span {
-    align-self: stretch;
+#channel-data p {
+    font-size: 15px;
+    line-height: 0.7;
+    margin-left: 1em;
 }
 
+#channel-data p span{
+    font-size: 10px;
+    color: #4d4d4d;
+}
+
+
 #channel-data button {
-    align-self: flex-end;
-    background-color: lightslategray;
+   margin-left: auto;
+    background-color: lightgray;
+    height: 30px;
 }
 
 #c-icon {
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 }
 
 .logo {
