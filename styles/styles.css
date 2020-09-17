@@ -65,6 +65,11 @@ header ul li button {
     margin-left: 10rem;
 }
 
+figure {
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+
 main {
     flex-direction: row;
 }
@@ -123,6 +128,7 @@ h4 {
 
 
 #channel-data button {
+    border-style: none;
    margin-left: auto;
     background-color: lightgray;
     height: 30px;
@@ -152,11 +158,9 @@ li {
     list-style: none;
 }
 
-#comment {
-    background-color: white;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+#description p {
+
+    margin-left: 3.4rem;
 }
 
 #spinner {
