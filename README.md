@@ -1,5 +1,7 @@
 # YouTube Video player page
 
+![GitHub Logo](./home-page.png)
+
 ### Project Description
 
 This project is the first project under the HTML and CSS3 Module at Microverse.
