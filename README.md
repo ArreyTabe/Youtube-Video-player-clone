@@ -8,6 +8,7 @@ In this, we clone the latest YouTube video player page using Semantic HTML.
 #### Requirements
 
 ##### Navigation bar
+
 - It has an embedded image that represents a logo.
 - The logo is aligned to the leftmost part of the navbar.
 - It has an input tag that represents a search bar.
@@ -16,8 +17,8 @@ In this, we clone the latest YouTube video player page using Semantic HTML.
 - The search button is at the end (rightmost part) of the search bar.
 - It has at least three embedded images on the rightmost part of the navbar that represent icons and/or an avatar.
 
-Video
------
+##### Video
+
 * It is displayed.
 * It shows the video title.
 * It shows the number of views.
@@ -31,5 +32,18 @@ Video
 * It shows the recommended video’s thumbnail preview (as image not as an actual video).
 * It shows the title of the video.
 * It shows the number of views.
+
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) 
+* Uses Font-Awesome
+* Uses GIT
+
+Contributors
+------------
+**Lameck Otieno** 
+- GitHub: [@Lameck1](https://github.com/Lameck1)
+
+**Arrey Tabe Affuembey**
+- GitHub: [@Arreytabe](https://github.com/ArreyTabe)
+
 
 
