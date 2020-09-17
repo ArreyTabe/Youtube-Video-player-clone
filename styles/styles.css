@@ -3,10 +3,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
-  
+  background-color: white;  
 }
-
 header {
   background-color: white;
   position: fixed;
@@ -14,24 +12,19 @@ header {
   top: 0px;
   margin-bottom: 20px;
 }
-
 header ul {
   flex-direction: row;
   align-items: center;
 }
-
 header ul li {
   font-size: 20px;  
 }
-
 header ul li a {
   color: darkgrey;
 }
-
 header ul li a .fa-bars {
   margin-right: 20px;
 }
-
 header ul li input {
   height: 30px;
   width: 40rem;
@@ -39,20 +32,16 @@ header ul li input {
   padding-left: 1em;
   margin-left: 15em;
 }
-
 header ul li .fa-search {
-  border: 1px solid darkgrey;
-  
+  border: 1px solid darkgrey;  
   height: 30px;
   padding-left: 2.3rem;
   width: 3rem;
   padding-top: 0.3rem;
 }
-
 header ul li .fa-search:hover {
   background-color: lightgrey;
 }
-
 header ul li button {
   background-color: #33A2FF;
   color: white;
@@ -61,23 +50,18 @@ header ul li button {
   padding: 10px;
   margin-left: 20px;
 }
-
 .container {
   display: flex;
 }
-
 main {
   flex-direction: row;
   margin-left: 10rem;
   padding-top: 100px;
 }
-
 figure {
   margin-left: 0.1rem;
   margin-right: 0.1rem;
 }
-
-
 section {
   display: flex;
   flex-direction: column;
@@ -85,79 +69,61 @@ section {
   align-content: center;
   justify-items: center;
 }
-
 #video-info {
   display: flex;
   flex-direction: row;
   background-color: white;
-
 }
-
 #video-info i {
   padding-left: 20px;
   color: #4d4d4d;
-
 }
-
 #thumbs-up {
   margin-left: auto;
 }
-
 #channel-data {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 0px;
 }
-
 #channel-data p {
   font-size: 15px;
   line-height: 0.7;
   margin-left: 1em;
 }
-
 #channel-data p span{
   font-size: 10px;
   color: #4d4d4d;
 }
-
-
 #channel-data button {
   border-style: none;
    margin-left: auto;
   background-color: lightgray;
   height: 30px;
 }
-
 #c-icon {
   border-radius: 50%;
   height: 40px;
   width: 40px;
 }
-
 .logo {
   margin-right: auto;
   height: 30px;
   width: 90px;
 }
-
 #u-icon {
   margin-left: auto;
 }
-
 aside {
   flex-direction: column;
 }
-
 li {
   list-style: none;
 }
-
 #description p {
-
   margin-left: 3.4rem;
 }
-
 #spinner {
   display: flex;
   flex-direction: row;
@@ -167,48 +133,38 @@ li {
   padding: 40px;
   margin-right: 10px;
 }
-
 #footer {
   display: flex;
   flex-direction: column;  
-  background-color: white;
-  
+  background-color: white;  
 }
-
 #f-options {
   display: flex;
   margin-top: 10px;
 }
-
 #f-options * {
   padding-right: 10px;
 }
-
 .f-link {
   display: flex;
   flex-direction: row;
   padding-left: 2px;
 }
-
 .f-link li {
   padding-right: 10px;
 }
-
 .f-link li a {
   color: black;
   text-decoration: none;
 }
-
 .f-link-b {
   display: flex;
   flex-direction: row;
   padding-left: 2px;
 }
-
 .f-link-b li {
   padding-right: 10px;
 }
-
 .f-link-b li a {
   color: darkgray;
   text-decoration: none;
