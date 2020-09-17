@@ -39,11 +39,18 @@ In this, we clone the latest YouTube video player page using Semantic HTML.
 
 Contributors
 ------------
-**Lameck Otieno** 
+👤 **Lameck Otieno** 
 - GitHub: [@Lameck1](https://github.com/Lameck1)
 
-**Arrey Tabe Affuembey**
+👤 **Arrey Tabe Affuembey**
 - GitHub: [@Arreytabe](https://github.com/ArreyTabe)
+
+## 🤝 Contributing
+
+Contribution and of issues are welcome!
+Give a ⭐️ if you like this project!
+
+
 
 
 
