@@ -20,7 +20,7 @@
         </ul>
     </header>
 
-    <main class="container">
+    <main class="container" id="container">
 
     <section id="section">
         <div id="video-player">
@@ -34,19 +34,17 @@
                 allowfullscreen>            
             </iframe>
         </div>
-
-        <p>What is Microverse?</p>
-
-        <div>    
-            <div id="video-info">
-                <span>259,000 views . Aug 2, 2018</span>
-                <i id = "thumbs-up" class="fa fa-thumbs-up">6.8k</i>
-                <i class="fa fa-thumbs-down">205</i>
-                <i class="fa fa-share">SHARE</i>
-                <i class="fa fa-save">SAVE</i>
-                <i class="fa fa-ellipsis-h"></i>
-            </div>            
-        </div>
+    <div id="h4-video-info">
+        <h4>What is Microverse?</h4>
+        <div id="video-info">
+            <span>259,000 views . Aug 2, 2018</span>
+            <i id = "thumbs-up" class="fa fa-thumbs-up">6.8k</i>
+            <i class="fa fa-thumbs-down">205</i>
+            <i class="fa fa-share">SHARE</i>
+            <i class="fa fa-save">SAVE</i>
+            <i class="fa fa-ellipsis-h"></i>
+        </div>            
+    </div>
 
         <div id=channel-data>
             <img id="c-icon" src="microverse.png" alt="Microverse">
@@ -54,13 +52,12 @@
                 <h5>Microverse</h5>
                 <h6>1M subscribers</h6>
             </span>
-
-            <button style="align-self: flex-end;">SUBSCRIBE</button>
+            <button>SUBSCRIBE</button>
         </div>
 
         <div id="add-comment">
             <form action="">
-                <textarea name="user-comment" id="user-comment" cols="60" rows="10"></textarea>
+                <textarea name="user-comment" id="user-comment" cols="6" rows="1"></textarea>
             </form>
         </div>
 

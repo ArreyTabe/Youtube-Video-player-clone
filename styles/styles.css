@@ -1,17 +1,16 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: lightgray;
+    background-color: white;
+    margin-left: 0px;
       
-}
-
-.container{
-    display: flex;
 }
 
 header{
     background-color:white;
+    position: fixed;
     width: 100%;
+    top: 0px;
 }
 
 header ul {
@@ -53,38 +52,70 @@ header ul {
        background-color: #33A2FF;
        height: 1.5rem;
        color: white;
-       margin-right: 3rem;
-       
-
+       margin-right: 3rem;     
    }
+   .container{
+    display: flex;
+}
+#container {
+    margin-left: 10rem;
+   
+}
 
 main{
     flex-direction: row;
-    width: 100%;
+    width: ;
 }
 
 section{
     flex-direction: column;
     flex: 2;
+    background-color: white;
+}
+#h4-video-info {
+    background-color: white;
+}
+h4 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    background-color: white;
 }
 
 #video-info{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+    background-color:white;
+   
+}
+#video-info span {
+ padding-top: 1rem;
+}
+
+#video-info i {
+    padding: 1rem;
+    color: #4d4d4d;
 }
 
 #thumbs-up{
     margin-left: auto;
 }
 
-#channel-data{
+#channel-data {
     display: flex;
-    flex-direction: row;
-    height: 30px;
-    width: 100%;
+    background-color: tomato;
+    margin-left: 0px;
+   
+ }
+ #channel-data span {
+     align-self: stretch;
+ }
+
+#channel-data button {
+ align-self: flex-end;
+  background-color: lightslategray;
 }
+
 
 #c-icon{
     border-radius: 50%;
@@ -133,6 +164,7 @@ li {
     flex-direction: column;
     width: 100%;
     background-color: white;
+    margin-left: 12rem;
 }
 
 #f-options {   
