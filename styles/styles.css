@@ -10,8 +10,8 @@ header {
   background-color: white;
   position: fixed;
   width: 100%;
-  top: 0px;
-  margin-bottom: 20px;
+  top: 0;
+  flex-grow: 1;
 }
 
 header ul {
@@ -52,7 +52,7 @@ header ul li .fa-search:hover {
 }
 
 header ul li button {
-  background-color: #33A2FF;
+  background-color: #33a2ff;
   color: white;
   margin-right: 80px;
   border-style: none;
@@ -102,7 +102,6 @@ section {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 0px;
 }
 
 #channel-data p {
