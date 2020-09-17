@@ -19,6 +19,10 @@ header ul {
   align-items: center;
 }
 
+li {
+  list-style: none;
+}
+
 header ul li {
   font-size: 20px;
 }
@@ -140,10 +144,6 @@ section {
 
 aside {
   flex-direction: column;
-}
-
-li {
-  list-style: none;
 }
 
 #description p {
