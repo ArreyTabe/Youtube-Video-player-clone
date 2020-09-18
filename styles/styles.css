@@ -82,7 +82,7 @@ header ul {
 
 #b-submit {
   width: 10%;
-  background: #eeeeee;
+  background: #eee;
   color: #757575;
   border: 1px solid grey;
   border-left: none;
@@ -90,7 +90,7 @@ header ul {
 }
 
 hr {
-  color: #eeeeee;
+  color: #eee;
   width: 100%;
 }
 
@@ -147,6 +147,11 @@ iframe {
   margin-left: auto;
 }
 
+.playlist-item p {
+  margin-top: 1px;
+  margin-left: 10px;
+}
+
 #channel-data {
   display: flex;
   flex-direction: row;
@@ -154,7 +159,7 @@ iframe {
 }
 
 .playlist-item-one p {
-  margin-top: 0px;
+  margin-top: 1px;
   margin-left: 10px;
 }
 
@@ -173,7 +178,7 @@ iframe {
   border-style: none;
   margin-left: auto;
   background-color: rgb(192, 4, 4);
-  color: #eeeeee;
+  color: #eee;
   height: 30px;
 }
 
@@ -204,11 +209,6 @@ aside {
 .playlist-item {
   display: flex;
   margin-bottom: 20px;
-}
-
-.playlist-item p {
-  margin-top: 0px;
-  margin-left: 10px;
 }
 
 .thumbnail-container {
@@ -251,7 +251,7 @@ aside {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 0em;
+  padding: 1px;
 }
 
 #comment-tally {
