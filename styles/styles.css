@@ -188,12 +188,26 @@ aside {
   flex-direction: column;
 }
 
+.playlist-item {
+  display: flex;
+}
+
 .thumbnail-container {
+  position: relative; 
 	border: 1px solid #ccc;
   height: 125px;
   width: 200px;
   text-align: center;
-  color: white;  
+  color: white;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background-color: black;
+  padding: 3px;
+  font-size: 12px;
 }
 
 .thumbnail {  
@@ -202,12 +216,7 @@ aside {
   background-color: royalblue;
 }
 
-.bottom-right {
-  background-color: black;
-  padding: 3px;
-  font-size: 12px;
-  align-self: flex-end;
-}
+
 
 #description p {
   margin-left: 3.4rem;
