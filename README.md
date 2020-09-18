@@ -1,6 +1,7 @@
 # YouTube Video player page
 
-![GitHub Logo](./demo.gif)
+ ## :rocket: Live Demo 
+[Youtube clone](https://raw.githack.com/ArreyTabe/Youtube-Video-player-clone/watch-video-page/index.html)
 
 ### Project Description
 
