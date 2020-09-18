@@ -1,6 +1,6 @@
 # YouTube Video player page
 
-![GitHub Logo](./home-page.png)
+![GitHub Logo](./demo.gif)
 
 ### Project Description
 
