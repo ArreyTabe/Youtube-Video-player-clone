@@ -47,7 +47,7 @@ header {
   border-radius: 50%;
   height: 40px;
   width: 40px;
-  margin-right: 0px;
+  margin-right: 1px;
 }
 
 #v-camera {
@@ -82,7 +82,7 @@ header ul {
 
 #b-submit {
   width: 10%;
-  background: #EEEEEE;
+  background: #eeeeee;
   color: #757575;
   border: 1px solid grey;
   border-left: none;
@@ -90,7 +90,7 @@ header ul {
 }
 
 hr {
-  color: #EEEEEE;
+  color: #eeeeee;
   width: 100%;
 }
 
@@ -136,7 +136,7 @@ section {
   display: flex;
   flex-direction: row;
   height: 400px;
-  width: 100;
+  width: 100%;
 }
 
 iframe {
@@ -151,6 +151,11 @@ iframe {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.playlist-item-one p {
+  margin-top: 0px;
+  margin-left: 10px;
 }
 
 #channel-data p {
@@ -168,7 +173,7 @@ iframe {
   border-style: none;
   margin-left: auto;
   background-color: rgb(192, 4, 4);
-  color: #EEEEEE;
+  color: #eeeeee;
   height: 30px;
 }
 
@@ -194,11 +199,6 @@ aside {
 
 .playlist-item-one {
   display: flex;
-}
-
-.playlist-item-one p {
-  margin-top: 0px;
-  margin-left: 10px;
 }
 
 .playlist-item {
