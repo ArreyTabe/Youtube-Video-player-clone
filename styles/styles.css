@@ -188,6 +188,27 @@ aside {
   flex-direction: column;
 }
 
+.thumbnail-container {
+	border: 1px solid #ccc;
+  height: 125px;
+  width: 200px;
+  text-align: center;
+  color: white;  
+}
+
+.thumbnail {  
+  width: 100%;
+  height: 100%;
+  background-color: royalblue;
+}
+
+.bottom-right {
+  background-color: black;
+  padding: 3px;
+  font-size: 12px;
+  align-self: flex-end;
+}
+
 #description p {
   margin-left: 3.4rem;
 }
