@@ -108,7 +108,7 @@ li {
 
 main {
   flex-direction: row;
-  margin-top: 4em;
+  padding-top: 100px;
   justify-content: center;
   width: 100%;
 }
