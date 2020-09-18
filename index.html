@@ -12,47 +12,45 @@
 <body>
     <header>
         <ul class="container">
-            <li>
-                <a href="#">
-                    <i class="fa fa-bars"></i>
-                </a>
+            <li class="li-icon-left">
+                <img class="header-icon-left" src="bars.png" alt="Sidebar Menu">
             </li>
-            <li>
-                <a href="https://www.youtube.com/">
+            <li id="li-logo">
+                <a href="https://www.youtube.com" target="_blank">
                     <img src="youtube.png" alt="Youtube" class="logo">
                 </a>
             </li>
-            <li>
-                <input type="text" placeholder="search">
+            <li id="li-form">
+                <form class="search-form" action="#">
+                    <input id="f-input" type="text" placeholder="Search" name="search">
+                    <button id="b-submit" type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </li>
+            <li id="v-camera">
+                <img class="header-icon-right" src="videocam.svg" alt="Video Camera">
             </li>
             <li>
-                <a href="#">
-                    <i class="fa fa-search"></i>
-                </a>
-            </li>
-            <li id="u-icon">
-                <a href="#">
-                    <i class="fa fa-upload"></i>
-                </a>
+                <img class="header-icon-right" src="apps.svg" alt="Notifications">
             </li>
             <li>
-                <button>sign in</button>
+                <img class="header-icon-right" src="notifications.svg" alt="Apps">
+            </li>
+            <li>
+                <img class="user-avarta" src="avarta.png" alt="User">
             </li>
         </ul>
     </header>
     <main class="container">
         <section id="section">
             <div id="video-player">
-                <figure>
-                    <iframe width="860" height="515" src="https://www.youtube.com/embed/f9ip1iSAptQ"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-                    <figcaption>What is Microverse?</figcaption>
-                </figure>
+                <iframe src="https://www.youtube.com/embed/f9ip1iSAptQ"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
 
-
+            <p>What is Microverse?</p>
             <div id="video-info">
                 <span>259,000 views . Aug 2, 2018</span>
                 <i id="thumbs-up" class="fa fa-thumbs-up"> 6.8k</i>
@@ -61,31 +59,42 @@
                 <i class="fa fa-save"> SAVE</i>
                 <i class="fa fa-ellipsis-h"></i>
             </div>
-            <hr>
+
+            <hr style="width: 100%;">
 
             <div id="channel-data">
                 <img id="c-icon" src="microverse.png" alt="Microverse">
                 <p>
-                    Microverse <br>
-                    <span><strong>1M subscribers</strong></span>
+                    Microverse
+                    <br>
+                    <span>
+                        <strong>1M subscribers</strong>
+                    </span>
                 </p>
                 <button>SUBSCRIBE</button>
             </div>
-
             <div id="description">
-                <p>
+                <p style="font-size: small;">
                     Microverse is a global, distributed school for software
                     developers that doesn't charge students
                     anything until they get hired.
+                    <br>
+                    <br>
+                    <span style="color: darkgrey;">
+                        <strong>SHOW MORE</strong>
+                    </span>
                 </p>
                 <hr>
-                <p style="color: grey;">SHOW MORE</p>
             </div>
-
-            <span id="spinner">
-                <i class="fa fa-spinner fa-spin"></i>
-                Loading...
-            </span>
+            <div id="comment-tally">
+                <p>1k Comments</p>
+                <img class="sort-icon" src="sort.png" alt="Sort Icon">
+                <p>SORT BY</p>
+            </div>
+            <div id="comment-section">
+                <img class="user-avarta-two" src="avarta.png" alt="User">
+                <textarea placeholder="Add a public comment" rows="1" cols="50" id="comment"></textarea>
+            </div>
         </section>
         <aside class="container">
             <img src="playlist_one.png" alt="playlist_one">
@@ -98,28 +107,32 @@
                 <img src="youtube.png" alt="Youtube" class="logo">
             </a>
             <form action="post">
-                
+                <span class="field-wrapper">
                 <label for="language" id="lang">Language:</label>
                 <select name="language" id="language">
                     <option value="" selected>English</option>
                 </select>
-            
+                </span>
+                
+                <span class="field-wrapper">
                 <label for="location" id="loc">Location:</label>
                 <select name="location" id="location">
                     <option value="" selected>Netherlands</option>
                 </select>
-            
+                </span>
+
+                <span class="field-wrapper">
                 <label for="rest_mode" id="r_mode">Restricted mode:</label>
                 <select name="rest_mode" id="rest_mode">
                     <option value="" selected>On</option>
                 </select>
-            
-                <i class="fa fa-hourglass-end"></i>History
-            
-                <i class="fa fa-question-circle"></i>Help
+                </span> 
                 
+                <button><i class="fa fa-hourglass-end"></i>
+                    History</button>
+                <button><i class="fa fa-question-circle"></i>
+                    Help</button>
             </form>
-
         </div>
         <div>
             <ul class="f-link">
@@ -150,7 +163,6 @@
                     <a href="#">Privacy</a>
                 </li>
                 <li>
-
                     <a href="#">Policy & Safety</a>
                 </li>
                 <li>
