@@ -1,9 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: white;
+  align-content: center;
+  background-color: rgba(255, 255, 255, 0.089);
 }
 
 header {
@@ -14,54 +18,87 @@ header {
   flex-grow: 1;
 }
 
+.header-icon-left {
+  height: 20px;
+  width: 20px;  
+  filter: invert(40%);
+}
+
+.li-icon-left {
+  margin-right: 1em;
+}
+
+.header-icon-right {
+  height: 20px;
+  width: 20px;
+  margin-left: 1em;
+  filter: invert(40%);
+}
+
+.user-avarta {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.user-avarta-two {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-right: 0px;
+}
+
+#v-camera {
+  margin-left: auto;
+}
+
 header ul {
   flex-direction: row;
   align-items: center;
+}
+
+#li-form {
+  margin-left: 15%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+#f-input {
+  font-size: 13px;
+  border: 1px solid grey;
+  padding-left: 1em;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 80%;
+}
+
+#b-submit {
+  width:10%;
+  background: #EEEEEE;
+  color: #757575;
+  border:1px solid grey;
+  border-left: none;
+  font-size: 10px;
+}
+
+hr {
+  color: #EEEEEE;
 }
 
 li {
   list-style: none;
 }
 
-header ul li {
-  font-size: 20px;
-}
-
-header ul li a {
-  color: darkgrey;
-}
-
-header ul li a .fa-bars {
-  margin-right: 20px;
-}
-
-header ul li input {
-  height: 30px;
-  width: 40rem;
-  border: 1px solid lightslategray;
-  padding-left: 1em;
-  margin-left: 15em;
-}
-
-header ul li .fa-search {
-  border: 1px solid darkgrey;
-  height: 30px;
-  padding-left: 2.3rem;
-  width: 3rem;
-  padding-top: 0.3rem;
-}
-
-header ul li .fa-search:hover {
+.fa-search:hover {
   background-color: lightgrey;
-}
-
-header ul li button {
-  background-color: #33a2ff;
-  color: white;
-  margin-right: 80px;
-  border-style: none;
-  padding: 10px;
-  margin-left: 20px;
 }
 
 .container {
@@ -70,32 +107,37 @@ header ul li button {
 
 main {
   flex-direction: row;
-  margin-left: 10rem;
-  padding-top: 100px;
-}
-
-figure {
-  margin-left: 0.1rem;
-  margin-right: 0.1rem;
+  margin-top: 4em;
+  justify-content: center;
 }
 
 section {
   display: flex;
   flex-direction: column;
-  background-color: white;
-  align-content: center;
-  justify-items: center;
+  background-color: rgba(255, 255, 255, 0.212);
 }
 
 #video-info {
   display: flex;
   flex-direction: row;
   background-color: white;
+  font-size: 12px;
+  color: #4d4d4d;
 }
 
 #video-info i {
-  padding-left: 20px;
-  color: #4d4d4d;
+  padding-left: 1em;  
+}
+
+#video-player {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 100;
+}
+
+iframe {
+  flex-grow: 1;
 }
 
 #thumbs-up {
@@ -110,7 +152,7 @@ section {
 
 #channel-data p {
   font-size: 15px;
-  line-height: 0.7;
+  line-height: 0.8;
   margin-left: 1em;
 }
 
@@ -122,7 +164,8 @@ section {
 #channel-data button {
   border-style: none;
   margin-left: auto;
-  background-color: lightgray;
+  background-color: rgb(192, 4, 4);
+  color: #EEEEEE;
   height: 30px;
 }
 
@@ -132,14 +175,13 @@ section {
   width: 40px;
 }
 
-.logo {
+.li-logo {
   margin-right: auto;
-  height: 30px;
-  width: 90px;
+  margin-left: 1em;
 }
 
-#u-icon {
-  margin-left: auto;
+.logo {
+  height: 20px;
 }
 
 aside {
@@ -153,21 +195,65 @@ aside {
 #spinner {
   display: flex;
   flex-direction: row;
-  background-color: white;
   align-items: center;
   justify-content: center;
   padding: 40px;
-  margin-right: 10px;
+}
+
+#comment-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0em;
+}
+
+#comment-tally {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  align-items: center;
+}
+
+.sort-icon {
+  height: 15px;
+  filter: invert(50%);
+  margin-left: 2em;
+  margin-right: 1em;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 5px 10px;
+  outline: none;
+  resize: none;
+  flex: 1;
+  line-height: 0px;
 }
 
 #footer {
   display: flex;
   flex-direction: column;
   background-color: white;
+  align-self: center;
+  width: 80%;
+}
+
+select {
+  border: none;
+}
+
+.field-wrapper {
+  border: 1px solid rgba(119, 117, 117, 0.904);
+  border-radius: 2px;
+  padding: 2px;
+  margin-right: 1em;
 }
 
 #f-options {
   display: flex;
+  flex-direction: row;
   margin-top: 10px;
 }
 
