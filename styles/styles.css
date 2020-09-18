@@ -20,7 +20,7 @@ header {
 
 .header-icon-left {
   height: 20px;
-  width: 20px;  
+  width: 20px;
   filter: invert(40%);
 }
 
@@ -81,10 +81,10 @@ header ul {
 }
 
 #b-submit {
-  width:10%;
+  width: 10%;
   background: #EEEEEE;
   color: #757575;
-  border:1px solid grey;
+  border: 1px solid grey;
   border-left: none;
   font-size: 10px;
 }
@@ -129,7 +129,7 @@ section {
 }
 
 #video-info i {
-  padding-left: 1em;  
+  padding-left: 1em;
 }
 
 #video-player {
@@ -212,15 +212,15 @@ aside {
 }
 
 .thumbnail-container {
-  position: static; 
-	border: 1px solid #ccc;
+  position: static;
+  border: 1px solid #ccc;
   height: 125px;
-  width: 200px;  
+  width: 200px;
   color: white;
 }
 
 .bottom-right {
-  position:absolute;
+  position: absolute;
   bottom: 8px;
   right: 8px;
   background-color: black;
@@ -228,13 +228,11 @@ aside {
   font-size: 12px;
 }
 
-.thumbnail {  
+.thumbnail {
   width: 100%;
   height: 100%;
   background-color: royalblue;
 }
-
-
 
 #description p {
   margin-left: 3.4rem;
